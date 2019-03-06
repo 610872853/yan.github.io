@@ -1836,7 +1836,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #83ff85;
+  background: #11ec8c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3003,4 +3003,9 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+.site-meta {
+  background-image: url("/yan.github.io/images/logo-bkg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
