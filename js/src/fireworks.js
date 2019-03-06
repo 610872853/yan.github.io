@@ -115,7 +115,7 @@ function setParticuleDirection(e) {
 
 function createParticule(e, t) {
   var a = {};
-  return a.x = e, a.y = t, a.color = colors[anime.random(0, colors.length - 1)], a.radius = anime.random(12, 20), a.endPos = setParticuleDirection(a), a.draw = function () {
+  return a.x = e, a.y = t, a.color = colors[anime.random(0, colors.length - 1)], a.radius = anime.random(8, 12), a.endPos = setParticuleDirection(a), a.draw = function () {
     ctx.beginPath(), ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0), ctx.fillStyle = a.color, ctx.fill()
   }, a
 }
@@ -180,7 +180,7 @@ function debounce(e, t) {
 var canvasEl = document.querySelector(".fireworks");
 if (canvasEl) {
   var ctx = canvasEl.getContext("2d"),
-    numberOfParticules = 5,
+    numberOfParticules = 3,
     pointerX = 0,
     pointerY = 0,
     tap = "mousedown",
