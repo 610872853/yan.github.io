@@ -121,12 +121,11 @@ function createParticule(e, t) {
 }
 
 function createCircle(e, t) {
-    /*
   var a = {};
-  return a.x = e, a.y = t, a.color = "#F00", a.radius = 0.1, a.alpha = 0.5, a.lineWidth = 6, a.draw = function () {
+  return a.x = e, a.y = t, a.color = "#FF000000", a.radius = 0.1, a.alpha = 0.5, a.lineWidth = 6, a.draw = function () {
     ctx.globalAlpha = a.alpha, ctx.beginPath(), ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0), ctx.lineWidth = a.lineWidth, ctx.strokeStyle = a.color, ctx.stroke(), ctx.globalAlpha = 1
   }, a
-  */
+
 }
 
 function renderParticule(e) {
